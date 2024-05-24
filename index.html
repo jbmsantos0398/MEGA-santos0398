@@ -193,17 +193,29 @@ img {
 <!------------------------------------------------------------------>
 <li><a href="index_arquivos/
 ATENÇÃO - AVISOS e SOBRE O SITE
-/1 - Copia.html" target="_blank"><b><FONT SIZE=+2><img src="
+/1 - Copia.html" target="_self"><b><FONT SIZE=+2><img src="
 https://www.educacaofisica.ufscar.br/graduacao/bacharelado/gif-atencao-animado/@@images/image.gif
 " width="200" height="200">
-ATENÇÃO / AVISOS e SOBRE O SITE.
-</b><FONT COLOR="#FF0000"> (
+AVISOS e SOBRE O SITE.
+</b><FONT COLOR="#FF0000"> (<b id='piscando' style="transition-duration:0.5s">
 Leia com atenção antre de entrar, obg.
+</b><script>
+var teste = 0;
+ setInterval(piscar, 500);
+ function piscar(){
+if(teste<1){
+teste++;
+document.getElementById('piscando').style.opacity = '1';
+} else{
+teste = 0; 
+document.getElementById('piscando').style.opacity = '0';
+}};
+</script>
 )</FONT></FONT></a></li>
 <!------------------------------------------------------------------>
 <li><a href="index_arquivos/
 SOBRE MIM
-/1 - Copia.html" target="_blank"><b><FONT SIZE=+2><img src="
+/1 - Copia.html" target="_self"><b><FONT SIZE=+2><img src="
 https://www.googleapis.com/drive/v3/files/1m5SK9KYQIZI21F8WHli8Mv5zIovqmsav?alt=media&key=AIzaSyCKN01YADpHeKX5_sO5KhC0XyYYiHQoV_c
 " width="200" height="200">
 SOBRE MIM
@@ -213,7 +225,7 @@ Redes sociais e contatos (Fale comigo, dê sua opiniao.)
 <!------------------------------------------------------------------>
 <li><a href="index_arquivos/
 LEMBRETES
-/1 - Copia.html" target="_blank"><b><FONT SIZE=+2><img src="
+/1 - Copia.html" target="_self"><b><FONT SIZE=+2><img src="
 https://clipart-library.com/images/6Tyor86Lc.jpg
 " width="200" height="200">
 LEMBRETES
