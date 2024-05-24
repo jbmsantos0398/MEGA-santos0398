@@ -193,15 +193,26 @@ img {
 <!------------------------- _blank --- _self ----------------------->
 <!------------------------------------------------------------------>
 <!-------------------------------------------------------------->
-<li><a href="
-LINK🔴
-" target="_blank"><b><FONT SIZE=+2><img src="
-IMAGEM🔴
-" width="200" height="200">
-NOME🔴
-</b><FONT COLOR="#FF0000"> (
-VERMELHO🔴
-)</FONT></FONT></a></li>
+<CENTER><b id='piscando' style="transition-duration:0.5s">
+<h1>LEIA COM ATENÇÃO.</h1>
+</b><script>
+var teste = 0;
+ setInterval(piscar, 500);
+ function piscar(){
+if(teste<1){
+teste++;
+document.getElementById('piscando').style.opacity = '1';
+} else{
+teste = 0; 
+document.getElementById('piscando').style.opacity = '0';
+}};
+</script></CENTER>
+<!---------------------------------------------------------------------------------->
+<!------------------------------------------------------------------>
+<center><p><font color="#000000">Contém conteúdo aduldo,</font> <font color="RED"><b>proibido para menores de 18 anos, de acordo com a <a href="https://www.planalto.gov.br/ccivil_03/leis/l8069.htm#art241E" target="_blank">lei Nº 8.069, DE 13 DE JULHO DE 1990.</a></b></font></p></center>
+<!------------------------------------------------------------------>
+<!------------------------------------------------------------------>
+<!------------------------------------------------------------------>
 <!------------------------------------------------------------------>
 <li><a href="
 LINK🔴
@@ -213,12 +224,6 @@ NOME🔴
 VERMELHO🔴
 )</FONT></FONT></a></li>
 <!------------------------------------------------------------------>
-
-
-
-
-
-
 <li><a href="
 LINK🔴
 " target="_blank"><b><FONT SIZE=+2><img src="
